@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Begin {
     public static void main(String[] args) {
-        System.out.print("Hello from Java");
+        System.out.println("Hello from Java.");
         System.out.println("Hello,what is your name?");
         Scanner sc = new Scanner(System.in);
         String name = sc.nextLine();
